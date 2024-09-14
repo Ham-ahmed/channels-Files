@@ -6,7 +6,8 @@ version=motor
 echo "> Downloading "$channel" "$version" Channels List  Please Wait ......"
 sleep 3s
 
-wget -O /var/volatile/tmp/$channel-$"version".tar.gz "https://raw.githubusercontent.com/Ham-ahmed/channels-Files/main/channels_backup_ciefp_20240913_204318.tar.gz"
+wget -O /var/volatile/tmp/$channel-$"version".tar.gz "https://raw.githubusercontent.com/Ham-ahmed/channels-Files/main/channels_backup_ciefp_20240913_204318.tar.gz
+"
 
 echo ""
 
